@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Codegram - Codificador de mensagens</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="root">
+      <img class="logo" src="Logo.png" alt="Logo do Cipher">
+      <h1>CODEGRAM</h1>
+  </div>
+
+  <p>
+  <pre>Conheça o Codegram, sua ferramenta para codificar e descodificar mensagens de forma prática 
+    e divertida! Você pode usá-lo para criar mensagens cifradas, compartilhar informações secretas,
+    dados privados, endereços e muito mais! Insira seu texto e aponte um número chave para começar.</pre>
+  </p>
+
+  <h2>Criptografia</h2>
+
+  <div class="grid">
+    <label class="desloca">Escolha aqui sua chave</label>
+    <select id="chave" required="required">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+    </select>
+  </div>
+
+  <textarea placeholder="Digite seu texto aqui" id="mensagem" rows="5" cols="40"></textarea>
+  <input type="submit" id="btn-cifrar" class="enviar" value="cifrar" />
+  <textarea placeholder="Resultado" id="mensagem-cifrada" rows="5" cols="40"></textarea>
+
+  <h2>Decifragem</h2>
+
+  <div class="grid2">
+    <label class="desloca">Escolha aqui sua chave</label>
+    <select id="chave1" required="required">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+    </select>
+  </div>
+
+  <textarea placeholder="Digite seu texto cifrado aqui" id="input-decifrar" rows="5" cols="40"></textarea>
+  <input type="submit" id="btn-decifrar" class="enviar" value="decifrar" />
+  <textarea placeholder="Resultado" id="resultado-decifragem" rows="5" cols="40"></textarea>
+
+  <script src="index.js" type="module"></script>
+</body>
+
+<footer>Criado por Marianna Esteves.</footer>
+
+</html>

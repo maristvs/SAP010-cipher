@@ -1,0 +1,79 @@
+* {
+    margin: 5px;
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(16, 68, 114);
+    background-color: #f4f3f0;
+}
+
+h1 {
+    color: rgb(16, 68, 114);
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    font-family: Helvetica;
+    margin: 5px;
+    padding: 5px;
+    margin-top: -150px;
+}
+
+.logo {
+    width: 280px;
+    margin-left: 0px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 1200px;
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+}
+
+.grid,
+.grid2 {
+
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-top: 0;
+}
+
+#mensagem,
+#mensagem-cifrada {
+    background-color: #eb9b6691;
+    padding: 20px;
+    height: 120px;
+    width: 300px;
+    opacity: 40%;
+    border-radius: 12px;
+    border: 2px solid blue
+}
+
+#input-decifrar,
+#resultado-decifragem {
+    background-color: #eb9b6691;
+    padding: 20px;
+    height: 120px;
+    width: 300px;
+    opacity: 40%;
+    border-radius: 12px;
+    border: 2px solid blue
+}
+
+#btn-cifrar,
+#btn-decifrar {
+    justify-content: center;
+    margin: auto;
+}
+
+.footer {
+    text-align: center;
+    align-items: center;
+    font-family: Helvetica;
+    margin: 80px;
+
+}
