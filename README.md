@@ -16,28 +16,11 @@
 
 ## 1. Prefácio
 
-Cifrar significa codificar. A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
-é um dos primeiros tipos de criptografias conhecidas na história.
-O imperador romano Júlio César utilizava essa cifra para enviar
-ordens secretas aos seus generais no campo de batalha.
+A Cifra de César é uma das técnicas de criptografia mais antigas e conhecidas. Ela recebe esse nome em homenagem a Júlio César, o famoso líder militar e político romano, que supostamente a utilizava para proteger suas comunicações.
 
-A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
-tipo de cifra por substituição, em que cada letra do texto original é
-substituida por outra que se encontra há um número fixo de posições
-(deslocamento) mais a frente do mesmo alfabeto.
+Essa cifra é um exemplo de criptografia por substituição, em que cada letra do texto original é substituída por outra letra, geralmente uma quantidade fixa de posições à frente no alfabeto. Por exemplo, com uma chave de deslocamento de 3, a letra "A" seria substituída por "D", "B" por "E", "C" por "F" e assim por diante.
 
-Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
-
-* Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto com cifra:  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-* A letra A será D
-* A palavra CASA será FDVD
-
-Atualmente todas as cifras de substituição alfabética simples, são decifradas
-com facilidade e não oferecem muita segurança na comunicação por si mesma,
-mas a cifra de César muitas vezes pode fazer parte de um sistema
-mais complexo de criptografia, como
-a cifra de Vigenère, e tem aplicação no sistema ROT13.
+Embora seja uma técnica relativamente simples, a Cifra de César ainda é estudada e utilizada em contextos educacionais e como um exemplo introdutório de criptografia. Ela ajuda a ilustrar conceitos fundamentais, como criptografia simétrica, algoritmos de substituição e o uso de chaves de deslocamento.
 
 ## 2. Resumo do projeto
 
