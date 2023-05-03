@@ -53,9 +53,8 @@ h1 {
     height: 120px;
     width: 300px;
     opacity: 40%;
-    margin:auto
     border-radius: 12px;
-    border:2px solid blue
+    border:2px solid blue  
 }
 
 #btn-cifrar, #btn-decifrar {
