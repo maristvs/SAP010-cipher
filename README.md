@@ -21,8 +21,8 @@ O projeto foi desenvolvido utilizando uma abordagem de desenvolvimento ágil, se
 
 ## Interface
 A interface do Cipher consiste em uma página web com campos para inserção da mensagem, chave de deslocamento e botões para cifrar e decifrar a mensagem. O resultado é exibido em tempo real na tela.
-![interface1](c/home/maristvs/SAP010-cipher/src/Codegram1.png)
-![interface2](c/home/maristvs/SAP010-cipher/src/Codegram2.png)
+![interface1](Codegram1.png)
+![interface2](Codegram2.png)
 
 ## Objetivos de Aprendizagem e Cobertura de Testes
 Os objetivos de aprendizagem deste projeto incluem:
@@ -32,7 +32,7 @@ Os objetivos de aprendizagem deste projeto incluem:
 - Realizar testes automatizados para garantir a funcionalidade correta do código.
 
 A cobertura de testes do projeto abrange as principais funcionalidades, incluindo testes para a função de cifragem, decifragem e validação dos dados de entrada, atingindo 100% dos statements, functions e lines, e branches pré-determinados.
-![testresult](/home/maristvs/SAP010-cipher/src/testcobertura.png)
+![testresult](testcobertura.png)
 
 
 ## Especificações Técnicas
@@ -45,3 +45,4 @@ O projeto Cipher foi desenvolvido utilizando as seguintes tecnologias e ferramen
 - GitHub (repositório de código)
 - Canva
 
+https://maristvs.github.io/SAP010-cipher/
