@@ -21,8 +21,15 @@ O projeto foi desenvolvido utilizando uma abordagem de desenvolvimento ágil, se
 
 ## Interface
 A interface do Cipher consiste em uma página web com campos para inserção da mensagem, chave de deslocamento e botões para cifrar e decifrar a mensagem. O resultado é exibido em tempo real na tela.
-![interface1](Codegram1.png)
-![interface2](Codegram2.png)
+<div style="display:flex">
+  <div align="center">
+    <img alt="tela interface" width="550"src="https://user-images.githubusercontent.com/131373702/236578281-38fa1bac-b689-4801-8e18-ee336967a4db.png"/>
+   <br><br>
+    Tela 1: Tela interface 1
+  </div>
+  </div>
+
+
 
 ## Objetivos de Aprendizagem e Cobertura de Testes
 Os objetivos de aprendizagem deste projeto incluem:
